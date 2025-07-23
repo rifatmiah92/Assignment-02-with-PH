@@ -1,0 +1,62 @@
+.body {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.logo-img {
+  width: 135px;
+  height: 82px;
+}
+.menu-items ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700px;
+  color: black;
+  display: inline;
+  margin-right: 20px;
+}
+.menu-items ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700px;
+  color: black;
+}
+#menu-a,
+#menu-b {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #8987a1;
+}
+.nav-ber {
+  display: flex;
+
+  justify-content: space-between;
+}
+.flowers-title {
+  font-size: 65px;
+  font-weight: 700px;
+  color: black;
+  margin-bottom: 0px;
+}
+span {
+  color: #e95a08;
+}
+.flower-description {
+  font-size: 16px;
+  font-weight: 600px;
+  color: #8987a1;
+  width: 450px;
+  margin-top: 20px;
+}
+.flowers-picture1 {
+  width: 570px;
+  height: 355px;
+}
+.flowers-picture1 img {
+  max-width: 100%;
+}
+.flowers-banner {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}

@@ -178,12 +178,14 @@ span {
   margin-top: 80px;
 }
 .bloom {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700px;
+  margin-bottom: 0px;
   color: white;
 }
 .shop-1 {
   font-size: 16px;
+  margin-top: 10px;
   font-weight: 700px;
   color: white;
 }
@@ -193,7 +195,7 @@ span {
   /* padding-top: 20%; */
 }
 .bag-text {
-  padding: 20%;
+  padding: 15%;
   margin-top: 15px;
 }
 .shop-3 {

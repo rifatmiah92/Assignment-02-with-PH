@@ -145,6 +145,7 @@ span {
 .background-img-1 {
   background-image: url(./assets/deal-bloom.png);
   width: 366px;
+  /* width: 160%; */
   height: 206px;
   background-repeat: no-repeat;
   border-radius: 10px 10px 10px 10px;
@@ -152,13 +153,15 @@ span {
 .background-img-2 {
   background-image: url(./assets/deal-ana.png);
   width: 366px;
+  /* width: 160%; */
   height: 206px;
   background-repeat: no-repeat;
   border-radius: 10px 10px 10px 10px;
 }
 .background-img-3 {
   background-image: url(./assets/deal-zabo.png);
-  width: 753px;
+  /* width: 753px; */
+  width: 70%;
   height: 432px;
   background-repeat: no-repeat;
   border-radius: 10px 10px 10px 10px;
@@ -335,6 +338,21 @@ span {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 100%;
+    margin-left: 0px auto;
+  }
+
+  .background-img-1 {
+    background-image: 100%;
+    margin-left: 15%;
+  }
+  .background-img-2 {
+    background-image: 100%;
+    margin-left: 15%;
+  }
+  .background-img-3 {
+    background-image: 100%;
+    max-width: 100%;
+    margin-left: 15%;
   }
   .flower-pl {
     flex-direction: column;

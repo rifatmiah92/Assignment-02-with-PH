@@ -344,29 +344,38 @@ span {
     flex-direction: column;
     gap: 0px;
   }
-  .colorful {
-    background-image: 100%;
-  }
+
   .text-bar {
-    background-color: white;
+    /* background-color: white;
     padding: 0px 50px;
     width: 218px;
     height: 50px;
     border: none;
     color: black;
-    margin-left: -80px;
+    margin-left: -80px; */
+    width: 50%;
+    margin-left: -20%;
   }
   .last-btn {
-    background-color: #e95a08;
-    /* padding: 26px 50px; */
+    /* background-color: #e95a08;
+    
     position: absolute;
     border: none;
     color: white;
     margin-right: -50px;
     width: 103px;
-    height: 50px;
+    height: 50px; */
+    width: 20%;
   }
   .colorful-Bunch {
     text-align: center;
+  }
+  .help-list {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
